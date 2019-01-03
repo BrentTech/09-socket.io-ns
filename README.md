@@ -1,13 +1,14 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## 09 Socket.io Namespaces
 
-### Author: Student/Group Name
+### Author: Brent Woodward
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+[![Build Status](https://www.travis-ci.com/BrentTech/09-socket.io-ns.svg?branch=master)](https://www.travis-ci.com/BrentTech/09-socket.io-ns)
+* [repo](https://github.com/BrentTech/09-socket.io-ns)
+* [travis](https://www.travis-ci.com/BrentTech/09-socket.io-ns)
 * [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
 
@@ -23,8 +24,7 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - localhost: 3000
 
 #### Running the app
 * `npm start`
@@ -37,6 +37,3 @@ Usage Notes or examples
 * How do you run tests?
 * What assertions were made?
 * What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
