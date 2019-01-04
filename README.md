@@ -12,26 +12,15 @@
 * [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
 ### Setup
 #### `.env` requirements
-* `PORT` - localhost: 3000
+* `PORT` - localhost:3000
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `node app.js`
+  * Starts app that emits on socket.io events for next-number and next-letter.
+* `nodemon server.js`
+  * Starts server on port 3000 with namespaces.
 
 #### Tests
 * How do you run tests?
